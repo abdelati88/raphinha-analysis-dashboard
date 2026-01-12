@@ -1,6 +1,6 @@
 # ⚽ Pro Player Analysis Dashboard
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://YOUR-APP-LINK-HERE.streamlit.app)
+[![Streamlit App] (https://raphinha-abdelati88.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Library](https://img.shields.io/badge/Library-Mplsoccer-green?style=for-the-badge)](https://mplsoccer.readthedocs.io/en/latest/)
 
@@ -42,7 +42,7 @@ Clone the repository:
 
 Bash
 
-git clone [https://github.com/abdelati88/raphinha-analysis-dashboard.git](https://github.com/abdelati88/raphinha-analysis-dashboard.git)
+git clone https://github.com/abdelati88/raphinha-analysis-dashboard.git
 cd raphinha-analysis-dashboard
 Install dependencies:
 
