@@ -35,3 +35,22 @@ The dashboard provides scouts and analysts with deep insights into player perfor
 ├── raphinha_data.json     # Player event data
 ├── raphina_stats.json     # General statistics
 └── raphinha.mp4       # Video highlights
+
+
+## 🔧 Installation & Usage
+Clone the repository:
+
+Bash
+
+git clone [https://github.com/abdelati88/raphinha-analysis-dashboard.git](https://github.com/abdelati88/raphinha-analysis-dashboard.git)
+cd raphinha-analysis-dashboard
+Install dependencies:
+
+Bash
+
+pip install -r requirements.txt
+Run the app:
+
+Bash
+
+streamlit run app.py
