@@ -336,21 +336,15 @@ if stats_json:
 
     # ============== 8. Video Section ==============
     st.markdown("---")
-    st.subheader("🎥 Match Analysis")
-    with st.expander("▶️ Watch Highlights", expanded=True):
-        video_path = "raphinha.mp4" 
-        if os.path.exists(video_path):
-            c1, c2 = st.columns([2, 1])
-            with c1: st.video(video_path)
-            with c2: 
-                st.info("📝 **Notes:**\n- 12:30 Progressive run\n- 45:10 Key pass")
-                st.text_area("Add notes:", height=100)
-        else:
-            st.warning(f"Video '{video_path}' not found.")
-
-else:
-    st.error("Data files not found.")
+    st.subheader("🎥 Match Highlights")
     
+    with st.expander("▶️ Watch Video", expanded=True):
+        video_path = "marmoush.mp4.mp4" 
+        
+        if os.path.exists(video_path):
+            st.video(video_path)
+        else:
+            st.error(f"⚠️ Video not found: {video_path}")    
     
     
     st.sidebar.markdown("---")
@@ -373,4 +367,5 @@ else:
         unsafe_allow_html=True
     )
     
+
     st.sidebar.caption("© 2026 abdelati88")
