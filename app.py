@@ -125,7 +125,7 @@ if stats_json:
         df_heat = pd.DataFrame(heat_list)
 
     # ============== 5. Sidebar Controls ==============
-    st.sidebar.title(f"📊 {player_name}" Highlights)
+    st.sidebar.title("📊 Raphinha Stats & Highlights")
     st.sidebar.markdown("---")
     
     viz_type = st.sidebar.radio(
@@ -369,4 +369,5 @@ if stats_json:
     
 
     st.sidebar.caption("© 2026 abdelati88")
+
 
