@@ -7,7 +7,7 @@ import os
 
 # ============== 1. Page Configuration ==============
 st.set_page_config(
-    page_title="Player Analysis Pro",
+    page_title="Raphinha vs Real Madrid",
     page_icon="⚽",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -125,7 +125,7 @@ if stats_json:
         df_heat = pd.DataFrame(heat_list)
 
     # ============== 5. Sidebar Controls ==============
-    st.sidebar.title(f"📊 {player_name}")
+    st.sidebar.title(f"📊 {player_name}" Highlights)
     st.sidebar.markdown("---")
     
     viz_type = st.sidebar.radio(
@@ -369,3 +369,4 @@ if stats_json:
     
 
     st.sidebar.caption("© 2026 abdelati88")
+
